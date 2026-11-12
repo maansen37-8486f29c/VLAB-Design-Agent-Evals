@@ -1,0 +1,18 @@
+# Off-line unit test execution
+
+Command: python -m unittest discover -s tests -v
+Date: 2026-11-12
+Scope: deterministic local Python tools ONLY; not Dify Agent/RAG-002/RAG-003.
+
+test_detect_two_explicit_violations (test_tools.RequirementsToolTests.test_detect_two_explicit_violations) ... ok
+test_dispatch_unknown_tool (test_tools.RequirementsToolTests.test_dispatch_unknown_tool) ... ok
+test_lookup_hard_f01 (test_tools.RequirementsToolTests.test_lookup_hard_f01) ... ok
+test_lookup_hard_f02 (test_tools.RequirementsToolTests.test_lookup_hard_f02) ... ok
+test_missing_dimensions_do_not_hallucinate (test_tools.RequirementsToolTests.test_missing_dimensions_do_not_hallucinate) ... ok
+test_preserving_components_is_not_declared_compliant (test_tools.RequirementsToolTests.test_preserving_components_is_not_declared_compliant) ... ok
+test_unknown_requirement_is_not_fabricated (test_tools.RequirementsToolTests.test_unknown_requirement_is_not_fabricated) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK

@@ -1,0 +1,4 @@
+﻿id,name,status,actual,expected
+RAG-001,硬性要求编号检索,observed_initial_pass,Agent回答HARD-F01/HARD-F02并附2个知识引用；尚未独立核验工具调用轨迹,准确引用HARD-F01/HARD-F02
+RAG-002,违反硬约束的设计方案评审,not_executed,Dify额度不足，未运行,指出违反HARD-F01/HARD-F02并提出符合约束的改进
+RAG-003,未知工程数值拒绝编造,not_executed,Dify额度不足，未运行,不编造双层圆盘直径、通风面积、国家标准编号

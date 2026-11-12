@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "name": "V·LAB车辆设计教学知识规则",
+    "version": "KB-V1",
+    "source": "VLAB_车辆设计教学知识库_v1.md",
+    "scope": "教学项目内的要求，不是法律/国家标准或工程合规认证"
+  },
+  "requirements": [
+    {
+      "id": "HARD-F01",
+      "category": "hard",
+      "object": "双层圆盘结构",
+      "rule": "原车双层圆盘结构必须完整保留，不得因外观改造而取消或随意改变。",
+      "evidence": "文档A/A2"
+    },
+    {
+      "id": "HARD-F02",
+      "category": "hard",
+      "object": "散热格栅",
+      "rule": "原车散热格栅不能取消；可在功能要求得到满足的前提下优化位置与造型。",
+      "evidence": "文档A/A2"
+    },
+    {
+      "id": "SOFT-F03",
+      "category": "soft",
+      "object": "车灯",
+      "rule": "优先考虑通用方形灯具；需验证装配和照明需求。",
+      "evidence": "文档A/A3"
+    },
+    {
+      "id": "SOFT-F04",
+      "category": "soft",
+      "object": "造型",
+      "rule": "优先使用简洁平面、折面及适度圆角，避免非必要复杂自由曲面。",
+      "evidence": "文档A/A3"
+    }
+  ],
+  "unverified_parameters": [
+    "双层圆盘准确直径(mm)",
+    "散热格栅最小有效通风面积(cm²)",
+    "国家标准编号",
+    "散热风量",
+    "温升数据"
+  ]
+}

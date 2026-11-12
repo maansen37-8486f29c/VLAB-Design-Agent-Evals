@@ -1,0 +1,63 @@
+{
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "lookup_requirement",
+        "description": "按编号查询V·LAB教学项目设计要求；不提供工程标准证明",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "requirement_id": {
+              "type": "string",
+              "description": "如HARD-F01"
+            }
+          },
+          "required": [
+            "requirement_id"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "assess_front_design",
+        "description": "检测矿用铲运车前脸方案是否显性违反已知项目硬约束；不作工程合规判断",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "proposal": {
+              "type": "string",
+              "description": "用户方案原文"
+            }
+          },
+          "required": [
+            "proposal"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "lookup_verified_parameter",
+        "description": "查询是否存在可核实的工程尺寸或标准参数；缺失时返回null",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "parameter": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "parameter"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ]
+}
